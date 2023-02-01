@@ -12,6 +12,7 @@ class Ejercicio1 extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(12.0),
         child: ListView(
+          scrollDirection: Axis.vertical,
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
