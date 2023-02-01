@@ -218,7 +218,13 @@ class Ejercicio1 extends StatelessWidget {
                   ),
                   child: Row(
                     children: const [
-                      Icon(Icons.abc),
+                      Icon(
+                        Icons.abc,
+                        size: 33,
+                      ),
+                      SizedBox(
+                        width: 10,
+                      ),
                       Text("Aceptar"),
                     ],
                   ),
