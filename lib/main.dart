@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mi_primer_proyecto/screens/ejercicio_1.dart';
+import 'package:mi_primer_proyecto/screens/examen.dart';
 import 'package:mi_primer_proyecto/screens/mi_primer_vista.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Ejercicio1(),
+      home: ExamenScreen(),
     );
   }
 }
