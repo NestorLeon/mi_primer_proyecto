@@ -19,9 +19,9 @@ class ExamenScreen extends StatelessWidget {
                     decoration: const BoxDecoration(
                       color: Color.fromARGB(255, 0, 77, 87),
                     ),
-                    child: Row(
+                    child: const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: const [
+                      children: [
                         Image(
                           width: 32,
                           height: 32,
@@ -52,11 +52,11 @@ class ExamenScreen extends StatelessWidget {
                           style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all(
                                   const Color.fromARGB(255, 0, 99, 112))),
-                          child: Padding(
-                            padding: const EdgeInsets.all(12.0),
+                          child: const Padding(
+                            padding: EdgeInsets.all(12.0),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.start,
-                              children: const [
+                              children: [
                                 Icon(
                                   Icons.settings,
                                   color: Colors.amber,
@@ -95,8 +95,8 @@ class ExamenScreen extends StatelessWidget {
                     decoration: const BoxDecoration(
                       color: Color.fromARGB(255, 0, 99, 112),
                     ),
-                    child: Row(
-                      children: const [
+                    child: const Row(
+                      children: [
                         Text(
                           "Catálogo de Choferes",
                           style: TextStyle(
@@ -123,19 +123,19 @@ class ExamenScreen extends StatelessWidget {
                         color: const Color.fromARGB(255, 51, 51, 51),
                       ),
                       child: ListView(
-                        children: [
-                          const Text(
+                        children: const [
+                          Text(
                             "Editar Chofer",
                             style: TextStyle(
                               color: Colors.white,
                               fontSize: 20,
                             ),
                           ),
-                          const SizedBox(
+                          SizedBox(
                             height: 10,
                           ),
                           Row(
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.only(right: 8.0),
                                 child: Expanded(
